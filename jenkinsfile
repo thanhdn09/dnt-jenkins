@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
+        stage('Clone Repository') {doc
             steps {
                 checkout scm
             }
